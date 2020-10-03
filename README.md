@@ -29,7 +29,7 @@ The members get registered to the event they like to and they have their login c
 
 •	Web server – Apache Tomcat 8
 
-## Output Screenshots
+## Screenshots
 
 ![img1](https://user-images.githubusercontent.com/64887026/94997617-fc09d400-05c9-11eb-83f8-d988b071b497.jpg)
 
