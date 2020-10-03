@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attendance Management System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css">
+<a href="index.html" ><h1 style="font-size:40px" align="center">ATTENDENCE
+MANAGEMENT SYSTEM</h1></a>
+</head>
+<body>
+<div align="right" class="nav">
+<a class="tablink" onclick="openPage('Home', this, '#F5E5B5')"
+id="defaultOpen">Home</a>
+<a class="tablink" onclick="openPage('Contact', this, '#F5E5B5')">Contact</a>
+<a class="tablink" onclick="openPage('About', this, '#B82606')" >About</a>
+<div class="dropdown" style="float:right">
+<a class="dropbtn">Login</a>
+<div class="dropdown-content">
+<a class="ep"
+onclick="document.getElementById('id01').style.display='block'"
+style="cursor:pointer">Team Leader</a>
+<a class="ep"
+onclick="document.getElementById('id02').style.display='block'"
+style="cursor:pointer">Team Member</a>
+<a class="ep"
+onclick="document.getElementById('id03').style.display='block'"
+style="cursor:pointer">Team Manager</a>
+</div>
+</div>
+<a class="tablink" href="signup.html" style="float:right" >Sign Up</a>
+</div>
+<div id="Home" class="tabcontent">
+<html>
+<head ><center><b>Attendance Management System</b></center></head>
+<body>
+<p>Attendance Management System is the process of marking attendance online when
+an event is taken care by Event leader. Once the event got created in dashboard,
+Team Members who are registered and interested in the event can view their
+attendance from their dashboard.</p><br>
+<h1>MODULES:</h1>
+<p><b>1.TEAM LEADER</b></p><br>
+<p><b>2.TEAM MEMBER</b></p><br>
+<p><b>3.TEAM MANAGER</b></p><br>
+</body>
+</html>
+</div>
+<div id="Contact" class="tabcontent">
+<h3>Contact</h3>
+<p>Contact Details and a contact form</p>
+</div>
+<div id="About" class="tabcontent">
+<h3>About</h3>
+<p>Who we are and what we do.</p>
+</div>
+<div id="id01" class="modal">
+<center>
+<form class="modal-content animate" action="checklogin1.jsp">
+<div class="imgcontainer">
+<span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+<h2>Team Leader login</h2>
+</div>
+<div class="container">
+<label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+<label for="pwd"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="pwd" required>
+<br>
+<button type="submit">Login</button>
+<br>
+<label>
+<input type="checkbox" name="remember"> Remember me
+</label>&nbsp;&nbsp;
+<a href="forgot.html">Forgot Password</a>
+</div>
+</form>
+</center>
+</div>
+<div id="id02" class="modal">
+<form class="modal-content animate" action="checklogin.jsp">
+<div class="imgcontainer">
+<span onclick="document.getElementById('id02').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+<h2>Team Member login</h2>
+</div>
+<div class="container">
+<label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+<label for="pwd"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="pwd" required>
+<br>
+<button type="submit">Login</button>
+<label>
+<input type="checkbox" checked="checked" name="remember"> Remember me
+</label>
+</div>
+</form>
+</div>
+<div id="id03" class="modal">
+<center>
+<form class="modal-content animate" action="checklogin2.jsp">
+<div class="imgcontainer">
+<span onclick="document.getElementById('id03').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+<h2>Team Manager login</h2>
+</div>
+<div class="container">
+<label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required>
+<br>
+<label for="pwd"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="pwd" required>
+<br>
+<button type="submit">Login</button>
+<label>
+<input type="checkbox" name="remember"> Remember me
+</label>
+</div>
+</form>
+</center>
+</div>
+<script src="script.js">
+</script>
+</body>
+</html>
