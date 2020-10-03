@@ -33,8 +33,11 @@ The members get registered to the event they like to and they have their login c
 
 ![img1](https://user-images.githubusercontent.com/64887026/94997617-fc09d400-05c9-11eb-83f8-d988b071b497.jpg)
 
+![img2](https://user-images.githubusercontent.com/64887026/94997654-3d01e880-05ca-11eb-9686-ea1319e0630b.jpg)
 
+![img3](https://user-images.githubusercontent.com/64887026/94997658-425f3300-05ca-11eb-8a69-4d487b84d3c3.jpg)
 
+![img4](https://user-images.githubusercontent.com/64887026/94997659-455a2380-05ca-11eb-9364-31411a7df78c.jpg)
 
 
 
