@@ -40,5 +40,7 @@ The members get registered to the event they like to and they have their login c
 ![img4](https://user-images.githubusercontent.com/64887026/94997659-455a2380-05ca-11eb-9364-31411a7df78c.jpg)
 
 
+***If you have any questions or issues, this repo is Contribution friendly!***
+
 
 
